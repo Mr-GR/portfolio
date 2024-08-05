@@ -1,5 +1,7 @@
 import {
-    mobile,
+    ruby,
+    java,
+    python,
     backend,
     creator,
     web,
@@ -46,10 +48,6 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
     },
@@ -61,12 +59,12 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Ruby",
+      icon: ruby,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Python",
+      icon: python, 
     },
     {
       name: "JavaScript",
@@ -81,10 +79,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -93,20 +87,12 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
+      name: "Java",
+      icon: java,
     },
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
@@ -116,8 +102,8 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Softare Engineer Intern",
+      company_name: "Assurant Inc",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
@@ -129,7 +115,7 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
+      title: "Data Center Technicain",
       company_name: "Tesla",
       icon: tesla,
       iconBg: "#E6DEDD",
@@ -142,24 +128,11 @@ import {
       ],
     },
     {
-      title: "Web Developer",
+      title: "United States Marine Crops",
       company_name: "Shopify",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,7 +171,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Application Dashboard",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -207,11 +180,11 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "ruby",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "APIs",
           color: "pink-text-gradient",
         },
       ],
@@ -219,20 +192,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Airline Mangement Application",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Azure Cosomo DB",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "GUI",
           color: "pink-text-gradient",
         },
       ],
@@ -240,20 +213,41 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Automation Cloud Solution",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "Azure",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "React",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Informational Website for Students",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
