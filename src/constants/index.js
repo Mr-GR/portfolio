@@ -25,6 +25,13 @@ import {
     jobit,
     tripguide,
     threejs,
+    assurant,
+    itron,
+    MarineCorps,
+    assurantlogo,
+    airline,
+    azure,
+    cisapp,
   } from "../assets";
   
   export const navLinks = [
@@ -38,7 +45,7 @@ import {
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "3D Earth",
     },
   ];
   
@@ -104,40 +111,43 @@ import {
     {
       title: "Softare Engineer Intern",
       company_name: "Assurant Inc",
-      icon: starbucks,
+      icon: assurant,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2024 – Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Spearheaded the development of robust backend systems using Ruby on Rails, enhancing the efficiency and scalability of internal applications.",
+        "Engineered dynamic and responsive front-end interfaces with React, improving user experience and engagement.",
+        "Successfully integrated iOS and Google Play APIs, enabling seamless data exchange and enhancing application functionality.",
+        "Led the Dockerization of the application, creating and managing Docker images and containers to streamline the deployment process and ensure consistent environments across development, testing, and production.",
+        "Implemented best practices in version control using GitHub, facilitating smooth collaboration and code management.",
       ],
     },
     {
       title: "Data Center Technicain",
-      company_name: "Tesla",
-      icon: tesla,
+      company_name: "Itron",
+      icon: itron,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "September 2021 - January 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Installed more than 24 Power Distribution Units (PDU).",
+        "Maintained over 60 servers (Utimaco, HSM Crypto Server, Palo Alto Servers, and Dell servers).",
+        "Managed fiber optic connections, cat6 connections, and how to properly connect network devices.",
+        "Ensured the Data Center was properly cleaned and organized.",
+        "Configured over 60 servers, storage devices, and Firewalls.",
       ],
     },
     {
-      title: "United States Marine Crops",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Administrative Assistant",
+      company_name: "United States Marine Crops",
+      icon: MarineCorps,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "October 2017 - July 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Scheduled Training for the Commanding Officer in charge of more than 300 Marines.",
+        "Managed daily correspondence for senior supervisors.",
+        "Coordinated training events for more than 300 Marines.",
+        "Input training data into Marine Corp Training Information Management System for more than 300 Marines.",
+        "Performed high speaking ability, high proficiency in presenting to senior supervisors, and strong communication skills.",
       ],
     },
   ];
@@ -173,7 +183,7 @@ import {
     {
       name: "Application Dashboard",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a full stack application to optimize the access to mobile apps meta-data, life cycle status, and versions.",
       tags: [
         {
           name: "react",
@@ -188,13 +198,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: assurantlogo,
+      source_code_link: "https://github.com/Mr-GR",
     },
     {
       name: "Airline Mangement Application",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        " Developed an application with three layers:GUI, BusinessLogic, and Database Implemented user features such as account creation, login, searching for flights, booking flights, and retrieving forgotten passwords.",
       tags: [
         {
           name: "Java",
@@ -209,13 +219,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: airline,
+      source_code_link: "https://github.com/Mr-GR/ProjectApplication",
     },
     {
       name: "Automation Cloud Solution",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Took charge of the cloud solutiin for the automation of an outdated system at Assurant, Inc.",
       tags: [
         {
           name: "Azure",
@@ -230,13 +240,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: azure,
+      source_code_link: "https://github.com/Mr-GR",
     },
     {
       name: "Informational Website for Students",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An informative website that goes over the Computer Information Systems at Georgia State University.",
       tags: [
         {
           name: "Python",
@@ -251,8 +261,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: cisapp,
+      source_code_link: "https://github.com/Mr-GR/CIS-App-Dev",
     },
   ];
   
