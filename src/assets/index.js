@@ -26,16 +26,32 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import assurant from "./company/assurant_favicon.png";
+import chickfila from "./company/chickfila.png";
+import itron from "./company/iton.png";
+import MarineCorps from "./company/MarineCorps.png";
+import assurantlogo from "./company/assurantlogo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import airline from "./company/airlinemanage.png";
+import cisapp from "./company/cisdev.png";
 
 import python from "./python.png"
 import java from "./java.png"
 import ruby from "./ruby.png"
+import azure from "./company/Azure.png"
 
 export {
+  cisapp,
+  azure,
+  airline,
+  assurantlogo,
+  assurant,
+  chickfila,
+  itron,
+  MarineCorps,
   ruby,
   java,
   python,
