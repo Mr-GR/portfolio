@@ -31,7 +31,14 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import python from "./python.png"
+import java from "./java.png"
+import ruby from "./ruby.png"
+
 export {
+  ruby,
+  java,
+  python,
   logo,
   backend,
   creator,
