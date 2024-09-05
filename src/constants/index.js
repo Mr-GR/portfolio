@@ -109,11 +109,20 @@ import {
   
   const experiences = [
     {
-      title: "Softare Engineer Intern",
+      title: "Associate Software Engineer", 
       company_name: "Assurant Inc",
       icon: assurant,
       iconBg: "#383E56",
-      date: "May 2024 – Present",
+      date: "September 2024 – Present",
+      points: [
+      ],
+    },
+    {
+      title: "Software Engineer Intern", 
+      company_name: "Assurant Inc",
+      icon: assurant,
+      iconBg: "#383E56",
+      date: "May 2024 – September 2024",
       points: [
         "Spearheaded the development of robust backend systems using Ruby on Rails, enhancing the efficiency and scalability of internal applications.",
         "Engineered dynamic and responsive front-end interfaces with React, improving user experience and engagement.",
@@ -225,7 +234,7 @@ import {
     {
       name: "Automation Cloud Solution",
       description:
-        "Took charge of the cloud solutiin for the automation of an outdated system at Assurant, Inc.",
+        "Took charge of the cloud solution for the automation of an outdated system at Assurant, Inc.",
       tags: [
         {
           name: "Azure",

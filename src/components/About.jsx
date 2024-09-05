@@ -53,7 +53,7 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I am a software engineer who develops, creates front-end interfaces with React, understands backend, and know how to Dockerize applications. My stack includes Ruby, React, Python, HTML, CSS JavaScript, and cloud solutions 
+        I am a software engineer who develops, creates front-end interfaces with React, understands backend, and knows how to Dockerize applications. My stack includes Ruby, React, Python, HTML, CSS JavaScript, and cloud solutions 
         like Azure and AWS, with interests in AI engineering, ML engineering, and data science.
       </motion.p>
 
