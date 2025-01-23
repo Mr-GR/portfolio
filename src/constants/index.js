@@ -115,6 +115,12 @@ import {
       iconBg: "#383E56",
       date: "September 2024 – Present",
       points: [
+        "Configured and optimized mobile applications tailored to client needs, enhancing user experience.",
+        "Deployed static web pages using Amazon S3 and CloudFront, improving delivery performance.",
+        "Designed and configured backend systems with Ruby for seamless client integration.",
+        "Debugged and secured codebases, removing over 300 critical vulnerabilities using Fortify scans.",
+        "Refined frontend components and web page designs, ensuring flawless client-side functionality.",
+        "Created client-specific landing pages to boost engagement and align with brand requirements.",
       ],
     },
     {
