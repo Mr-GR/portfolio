@@ -42,6 +42,7 @@ import python from "./python.png"
 import java from "./java.png"
 import ruby from "./ruby.png"
 import azure from "./company/Azure.png"
+import GenAISuite from "./GenAISuite.png"
 
 export {
   cisapp,
@@ -83,5 +84,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  inital
+  inital,
+  GenAISuite
 };

@@ -32,6 +32,7 @@ import {
     airline,
     azure,
     cisapp,
+    GenAISuite,
   } from "../assets";
   
   export const navLinks = [
@@ -196,6 +197,52 @@ import {
   
   const projects = [
     {
+      name: "GenAI Suite",
+      description:
+        "Developed a ChatGPT-like Ruby on Rails application powered by Ollama, featuring user authentication with Devise, code rendering with Markdown, and image recognition capabilities. Leveraged Redis and Sidekiq for multithreading, enabling efficient background job processing and improved application performance.",
+      tags: [
+        {
+          name: "Ruby on Rails",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "LLMS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Generative AI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Full-Stack-Project",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: GenAISuite,
+      source_code_link: "https://github.com/Mr-GR/GenAISuite",
+    },
+    {
+      name: "Automation Cloud Solution",
+      description:
+        "Took charge of the cloud solution for the automation of an outdated system at Assurant, Inc.",
+      tags: [
+        {
+          name: "Azure",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: azure,
+      source_code_link: "https://github.com/Mr-GR",
+    },
+    {
       name: "Application Dashboard",
       description:
         "Developed a full stack application to optimize the access to mobile apps meta-data, life cycle status, and versions.",
@@ -236,27 +283,6 @@ import {
       ],
       image: airline,
       source_code_link: "https://github.com/Mr-GR/ProjectApplication",
-    },
-    {
-      name: "Automation Cloud Solution",
-      description:
-        "Took charge of the cloud solution for the automation of an outdated system at Assurant, Inc.",
-      tags: [
-        {
-          name: "Azure",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "React",
-          color: "green-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: azure,
-      source_code_link: "https://github.com/Mr-GR",
     },
     {
       name: "Informational Website for Students",
