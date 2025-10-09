@@ -33,6 +33,7 @@ import {
     azure,
     cisapp,
     GenAISuite,
+    blockcertify,
   } from "../assets";
   
   export const navLinks = [
@@ -116,12 +117,14 @@ import {
       iconBg: "#383E56",
       date: "September 2024 – Present",
       points: [
-        "Configured and optimized mobile applications tailored to client needs, enhancing user experience.",
-        "Deployed static web pages using Amazon S3 and CloudFront, improving delivery performance.",
-        "Designed and configured backend systems with Ruby for seamless client integration.",
-        "Debugged and secured codebases, removing over 300 critical vulnerabilities using Fortify scans.",
-        "Refined frontend components and web page designs, ensuring flawless client-side functionality.",
-        "Created client-specific landing pages to boost engagement and align with brand requirements.",
+        "Modernized and stabilized core mobile applications by upgrading React Native versions, reducing technical debt and improving overall app reliability.",
+        "Enhanced organizational stakeholder value by contributing to a production-scale project projected to generate over $5M in annual revenue.",
+        "Configured and optimized mobile applications tailored to client needs, delivering smoother user experiences and performance improvements.",
+        "Deployed static web pages using Amazon S3 and CloudFront, boosting delivery efficiency and reducing page load times.",
+        "Designed, configured, and maintained backend services using Ruby and server-side frameworks, ensuring seamless client integration and uptime.",
+        "Debugged and secured codebases, removing 300+ critical vulnerabilities through comprehensive Fortify scans and remediation workflows.",
+        "Refined frontend components and user interfaces, ensuring pixel-perfect alignment and consistent client-side functionality across devices.",
+        "Developed and maintained client-specific landing pages to improve engagement and align with brand requirements and KPIs.",
       ],
     },
     {
@@ -196,6 +199,31 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Block Certify",
+      description:
+        "I developed an NFT certification application that allows the admin to issue certs to hackathon winners, students, and many other use cases.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ERC-721",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Smart Contract",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Full-Stack-Project",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: blockcertify,
+      source_code_link: "https://blockcertify.io/",
+    },
     {
       name: "GenAI Suite",
       description:
