@@ -43,6 +43,7 @@ import java from "./java.png"
 import ruby from "./ruby.png"
 import azure from "./company/Azure.png"
 import GenAISuite from "./GenAISuite.png"
+import blockcertify from "./blockcertify.png"
 
 export {
   cisapp,
@@ -85,5 +86,6 @@ export {
   jobit,
   tripguide,
   inital,
-  GenAISuite
+  GenAISuite,
+  blockcertify,
 };
