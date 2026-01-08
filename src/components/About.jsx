@@ -53,7 +53,7 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I'm a software engineer with experience building React frontends and working with Ruby backends. I’ve configured applications for clients, and work well with teams. Right now, I’m working on my Master’s in Data Science and focusing on learning everything I need to become a machine learning engineer. I’m especially interested in AI and ML, and my goal is to combine my full-stack skills with data science to move into ML engineering.
+        I'm a backend engineer with strong experience in Ruby and building scalable server-side applications. I've designed and deployed production systems for clients, collaborating effectively with cross-functional teams. With a completed Master's in Data Science, I'm transitioning into machine learning and AI engineering. My goal is to leverage my backend engineering expertise in building robust, production-ready ML systems and data pipelines, combining software engineering best practices with modern ML/AI technologies.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

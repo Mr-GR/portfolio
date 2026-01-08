@@ -47,23 +47,23 @@ import {
     },
     {
       id: "contact",
-      title: "3D Earth",
+      title: "contact",
     },
   ];
   
   const services = [
     {
-      title: "Software Engineer",
+      title: "Backend Software Engineer",
       icon: web,
     },
     {
-      title: "Machine Learning Engineer Student",
+      title: "Machine Learning Engineer",
       icon: backend,
     },
     {
-      title: "Tech Enthusiast",
-      icon: creator,
-    },
+      title: "AI Engineer",
+      icon: creator
+    }
   ];
   
   const technologies = [
