@@ -37,6 +37,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import airline from "./company/airlinemanage.png";
 import cisapp from "./company/cisdev.png";
+import aiagents from "./aiagents.png";
 
 import python from "./python.png"
 import java from "./java.png"
@@ -88,4 +89,5 @@ export {
   inital,
   GenAISuite,
   blockcertify,
+  aiagents,
 };

@@ -34,6 +34,7 @@ import {
     cisapp,
     GenAISuite,
     blockcertify,
+    aiagents,
   } from "../assets";
   
   export const navLinks = [
@@ -199,10 +200,35 @@ import {
   ];
   
   const projects = [
+        {
+      name: "Help Desk AI Agent RAG",
+      description:
+        "Built a help desk agent using RAG to answer support queries by retrieving relevant documentation from a vector database. Integrated product manuals as embeddings and implemented semantic search to match user questions with the most relevant content.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "RAG",
+          color: "green-text-gradient",
+        },
+        {
+          name: "AI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Orchestration",
+          color: "blue-text-gradient"
+        },
+      ],
+      image: aiagents,
+      source_code_link: "https://www.youtube.com/watch?v=Xj-khFaZy2A&t=33s",
+    },
     {
       name: "Block Certify",
       description:
-        "I developed an NFT certification application that allows the admin to issue certs to hackathon winners, students, and many other use cases.",
+        "Built an NFT certification platform using ERC-721 tokens and Next.js. Implemented admin functionality to mint and distribute digital certificates for hackathons and educational programs.",
       tags: [
         {
           name: "Next.js",
@@ -227,7 +253,7 @@ import {
     {
       name: "GenAI Suite",
       description:
-        "Developed a ChatGPT-like Ruby on Rails application powered by Ollama, featuring user authentication with Devise, code rendering with Markdown, and image recognition capabilities. Leveraged Redis and Sidekiq for multithreading, enabling efficient background job processing and improved application performance.",
+        "Built a ChatGPT-like application using Ruby on Rails and Ollama for local LLM inference. Implemented user authentication with Devise, Markdown rendering for code blocks, and image recognition. Used Redis and Sidekiq to handle background job processing for LLM requests.",
       tags: [
         {
           name: "Ruby on Rails",
@@ -252,7 +278,7 @@ import {
     {
       name: "Automation Cloud Solution",
       description:
-        "Took charge of the cloud solution for the automation of an outdated system at Assurant, Inc.",
+        "Contributed to the cloud migration of a legacy automation system at Assurant using Azure services. Built a React-based interface to manage and monitor automated workflows.",
       tags: [
         {
           name: "Azure",
@@ -273,7 +299,7 @@ import {
     {
       name: "Application Dashboard",
       description:
-        "Developed a full stack application to optimize the access to mobile apps meta-data, life cycle status, and versions.",
+        "Built a full-stack dashboard to track mobile app metadata, lifecycle status, and version information. Developed REST APIs with Ruby and a React frontend to streamline app management workflows.",
       tags: [
         {
           name: "react",
@@ -294,7 +320,7 @@ import {
     {
       name: "Airline Mangement Application",
       description:
-        " Developed an application with three layers:GUI, BusinessLogic, and Database Implemented user features such as account creation, login, searching for flights, booking flights, and retrieving forgotten passwords.",
+        "Built a three-tier airline management system with Java Swing GUI, business logic layer, and Azure Cosmos DB integration. Implemented user authentication, flight search, booking functionality, and password recovery.",
       tags: [
         {
           name: "Java",
@@ -311,27 +337,6 @@ import {
       ],
       image: airline,
       source_code_link: "https://github.com/Mr-GR/ProjectApplication",
-    },
-    {
-      name: "Informational Website for Students",
-      description:
-        "An informative website that goes over the Computer Information Systems at Georgia State University.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "HTML",
-          color: "green-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: cisapp,
-      source_code_link: "https://github.com/Mr-GR/CIS-App-Dev",
     },
   ];
   
